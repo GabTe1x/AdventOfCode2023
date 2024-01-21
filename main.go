@@ -1,10 +1,5 @@
 package main
 
-import (
-	"adventofcode/src"
-	"fmt"
-)
-
 func main() {
 	/* DAY 1
 	fmt.Println(src.SumOfCalibrationValue())
@@ -41,6 +36,6 @@ func main() {
 
 	/* DAY 8
 	fmt.Println(src.StepsNumber())
-	*/
 	fmt.Println(src.StepsNumber2())
+	*/
 }

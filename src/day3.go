@@ -2,7 +2,6 @@ package src
 
 import (
 	"adventofcode/utils"
-	"fmt"
 	"regexp"
 	"strconv"
 	"unicode"
@@ -121,7 +120,6 @@ func SumOfGear() int {
 	for i := 0; i < len(data); i++ {
 		for y := 0; y < len(data[i]); y++ {
 			if isStar(string(data[i][y])) {
-				fmt.Println("*", i)
 				res += checkAround(i, y, data)
 			}
 		}
@@ -148,19 +146,16 @@ func checkAround(i int, y int, data []string) int {
 	valide := 0
 	for _, el := range x {
 		if el != 0 && valide == 0 {
-			fmt.Println(el)
 			res = el
 			valide++
 		} else if el != 0 && valide == 1 {
 			if el != res {
-				fmt.Println(el)
 				res = res * el
 				valide++
 			}
 		}
 	}
 	if valide == 2 {
-		fmt.Println(res)
 		return res
 	}
 	return 0
