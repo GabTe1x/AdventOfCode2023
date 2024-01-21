@@ -38,4 +38,9 @@ func main() {
 	fmt.Println(src.StepsNumber())
 	fmt.Println(src.StepsNumber2())
 	*/
+
+	/* DAY 9
+	fmt.Println(src.OasisReportSum())
+	fmt.Println(src.OasisReportStartSum())
+	*/
 }
