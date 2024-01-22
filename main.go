@@ -1,5 +1,10 @@
 package main
 
+import (
+	"adventofcode/src"
+	"fmt"
+)
+
 func main() {
 	/* DAY 1
 	fmt.Println(src.SumOfCalibrationValue())
@@ -23,6 +28,7 @@ func main() {
 
 	/* DAY 5
 	 */
+	fmt.Println(src.Almanact())
 
 	/* DAY 6
 	fmt.Println(src.BoatRace())
@@ -43,4 +49,7 @@ func main() {
 	fmt.Println(src.OasisReportSum())
 	fmt.Println(src.OasisReportStartSum())
 	*/
+
+	/* DAY 10
+	 */
 }
